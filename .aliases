@@ -1,0 +1,32 @@
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~"
+
+alias ls="ls -lGF"
+alias la="ls -la"
+alias d="ls -la"
+
+alias g="git"
+alias gl="git log --oneline --all --color --graph --decorate"
+
+alias dl="cd ~/Downloads"
+alias h="history"
+alias c="clear"
+alias l="less"
+alias rd="rmdir"
+alias md="mkdir"
+alias back="cd -"
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+alias sudo='sudo '
+
+alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
+
+alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+alias reload="exec $SHELL -l"
