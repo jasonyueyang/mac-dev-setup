@@ -4,9 +4,12 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~"
 
-alias ls="ls -lGF"
+alias ls="ls -lF"
 alias la="ls -la"
 alias d="ls -la"
+alias rd="rmdir"
+alias md="mkdir"
+alias back="cd -"
 
 alias g="git"
 alias gl="git log --oneline --all --color --graph --decorate"
@@ -15,9 +18,7 @@ alias dl="cd ~/Downloads"
 alias h="history"
 alias c="clear"
 alias l="less"
-alias rd="rmdir"
-alias md="mkdir"
-alias back="cd -"
+alias p="python3"
 
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
