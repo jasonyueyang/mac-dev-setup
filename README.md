@@ -1,7 +1,11 @@
 # Mac Dev Environment Setup
 This document describes how I set up the dev environment for Node.js, Python, and Java development on my Mac. I hope this is a helpful reference for you to set up your machine. If you have additional tips and tricks that I should include, please send me a pull request.
 
-The OS I'm using is OS X El Capitan.
+The OS I'm using is **OS X El Capitan**.
+
+- [System preferences](#system-preferences)
+- [Command line environments](#command-line-environments)
+- [Automating software installation](#automating-software-installation)
 
 ## System preferences
 Here are some of my settings.
@@ -30,9 +34,7 @@ As a developer, you will spend a lot of time using the command window. Customizi
 
 > :bulb: If you're not familiar with shell commands, it's well worth brushing up on your [CLI commands](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything ).
 
-## Software installation
-
-### Automating the setup process
+## Automating software installation
 To save time, and to create a consistent dev environment, it is benefitial to automate the setup. 
 
 You can take a look at the [.setup](https://github.com/jasonyueyang/mac-dev-setup/blob/master/.setup) script as a reference. Make sure you understand what it does and customize it to tailor for your needs.
