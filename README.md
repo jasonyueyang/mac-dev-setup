@@ -33,3 +33,11 @@ Here are some of my settings.
 
 * Internet Accounts
   * Add your favorite accounts 
+
+## Command Line Environments
+As a developer, you will spend a lot of time using the command window. Customizing the command line environment will make you more efficient. 
+
+* Create the "dot files".
+ * Create [.bashrc](https://github.com/jasonyueyang/mac-dev-setup/blob/master/.bashrc) 
+ * Create [.profile](https://github.com/jasonyueyang/mac-dev-setup/blob/master/.profile)
+ * Create [.aliases](https://github.com/jasonyueyang/mac-dev-setup/blob/master/.aliases)
