@@ -101,11 +101,12 @@ brew cask install --appdir="/Applications" visual-studio-code
 Here are some of my favorite applications:
   * [Visual Studio Code](https://code.visualstudio.com)
   * [Sublime Text](http://www.sublimetext.com)
+  * [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download/)
   * [Alfred](https://www.alfredapp.com)
   * [Dropbox](https://www.dropbox.com)
   * [iTerm 2](https://www.iterm2.com)
   * [Skype](http://www.skype.com)
-
+  
 > :bulb: To run Code directly from command line, you can add the following to your .bashrc file. Then you can run Code with something like `code foo.txt`.
 ```
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
@@ -115,10 +116,10 @@ code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 ```
 cd ~
 mkdir Bin
-ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/Bin/sub
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/sub
 ```
 
-> :bulb: If you are a VIM lover like me, you can turn on VIM in Sublime:
+> :bulb: If you are a VIM lover, you can turn on the VIM mode in Sublime:
 ```
 Preferences > Settings-Default > Remove ”ignored_packages": ["Vintage"] (and the last trailing comma)
 Preferences > Settings-User: Add "vintage_start_in_command_mode": true
