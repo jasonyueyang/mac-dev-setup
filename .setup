@@ -3,11 +3,6 @@
 # This script automates the process of setting up your Mac.
 # Please first understand what it does and then customize it to tailor for your needs.
 
-# You can use the if block below to comment out certain chunks when experimenting with it.
-
-if [ 1 -eq 0 ]; then
-fi
-
 # Install the command line developer tools.
 # This is needed for Homebrew, the most popular package manager for OS X.
 
@@ -55,6 +50,7 @@ apps=(
   visual-studio-code
   sublime-text
   skype
+  pycharm-ce
 )
 
 # Install apps to /Applications.
