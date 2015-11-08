@@ -1,11 +1,17 @@
 # Mac Dev Environment Setup
-This document describes how I set up the dev environment for Node.js, Python, and Java development on my Mac. I hope this is a helpful reference for you to set up your machine. If you have additional tips and tricks that I should include, please send me a pull request.
+This document describes how I set up the dev environment for Node.js, Python, and Java development on my Mac. I hope this is a helpful reference for you to set up your machine. The OS I'm using is **OS X El Capitan**.
 
-The OS I'm using is **OS X El Capitan**.
+If you have additional tips and tricks that I should include, please send me a pull request.
+
 
 - [System preferences](#system-preferences)
-- [Command line environments](#command-line-environments)
-- [Automating software installation](#automating-software-installation)
+- [Environment configuration](#environment-configuration)
+- [Automation](#automation)
+- [Command line developer tools](#command-line-developer-tools)
+- [Homebrew](#homebrew)
+- [Downloading packages](#downloading-packages)
+- [Homebrew-cask](#homebrew-cask)
+- [Applications](#applications)
 
 ## System preferences
 Here are some of my settings.
@@ -24,7 +30,7 @@ Here are some of my settings.
 * Sound > Show volume in menu bar: On
 * Internet Accounts > Add your favorite accounts 
 
-## Command line environments
+## Environment configuration
 As a developer, you will spend a lot of time using the command window. Customizing the command line environment will make you more efficient. 
 
 * Customize the "dot files" under your home directory.
@@ -34,14 +40,14 @@ As a developer, you will spend a lot of time using the command window. Customizi
 
 > :bulb: If you're not familiar with shell commands, it's well worth brushing up on your [CLI commands](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything ).
 
-## Automating software installation
+## Automation
 To save time, and to create a consistent dev environment, it is benefitial to automate the setup. 
 
 You can take a look at the [.setup](https://github.com/jasonyueyang/mac-dev-setup/blob/master/.setup) script as a reference. Make sure you understand what it does and customize it to tailor for your needs.
 
 > :bulb: For [Chrome](https://www.google.com/chrome/browser/desktop/index.html), I find it easier to install manually. Otherwise you will need to go through special steps to get the password saving feature work.
 
-### Command line developer tools
+## Command line developer tools
 
 I use [Homebrew](http://brew.sh/), the most popular package manager for OS X, to manage installation. Homebrew has a dependency on the command line developer tools, which can be installed either by downloading XCode, or by running the followiing command:
 ```
@@ -53,7 +59,7 @@ To check if it's installed properly, you can print the active developer director
 xcode-select -p
 ```
 
-### Homebrew
+## Homebrew
 
 After this, you can check for Homebrew and install it if it's not present:
 ```
@@ -64,8 +70,8 @@ if test ! $(which brew); then
 fi 
 ```
 
-### Downloading packages
-Now you can install a package (or a formula) like this:
+## Downloading packages
+Now you can install a package (or "formula", following the brew terminology) like this:
 ```
 brew install node
 ```
@@ -77,13 +83,13 @@ I typically install these:
 
 > :bulb: You can check the Python version with `python -V`. The default Python from OS X is version 2.7.10. If you use `brew install python3`, it will install 3.5.0.
 
-### Homebrew-cask
+## Homebrew-cask
 For GUI applications, you will want to use [Homebrew-cask](http://caskroom.io):
 ```
 brew install caskroom/cask/brew-cask
 ```
 
-### Downloading applications
+## Applications
 You can use something like `brew cask search visual-studio-code` to search for an app. Or you can search apps at http://caskroom.io/search.
 
 Once this is done, you can install your favorite applications like this:
@@ -117,4 +123,10 @@ Preferences > Settings-Default > Remove ”ignored_packages": ["Vintage"] (and t
 Preferences > Settings-User: Add "vintage_start_in_command_mode": true
 ```
 
-In addition, I also install iTunes, OneNote, OneDrive, Outlook, Word, PowerPoint, Excel, and Skype for Business.
+In addition, I also install these applications:
+- iTunes
+- OneNote
+- OneDrive
+- Remote Desktop for Mac
+- Office for Mac (Outlook, Word, PowerPoint, Excel)
+- Lync for Mac
