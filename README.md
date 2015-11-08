@@ -1,5 +1,7 @@
 # Mac Dev Environment Setup
-This document describes how I set up the dev environment for Node.js, Python, and Java development on my Mac. I hope this is a helpful reference for you to set up your machine. The OS I'm using is **OS X El Capitan**.
+This repo summarizes how I set up the development environment for **Node.js**, **Python**, and **Java** development on my Mac with **OS X El Capitan**.
+
+If you need to set up a similar dev environment, I hope this can be a helpful reference for you. 
 
 - [System preferences](#system-preferences)
 - [Environment configuration](#environment-configuration)
@@ -9,7 +11,7 @@ This document describes how I set up the dev environment for Node.js, Python, an
 - [Downloading packages](#downloading-packages)
 - [Homebrew-cask](#homebrew-cask)
 - [Applications](#applications)
-- [Special thanks](#special-thanks)
+- [Resources](#thanks-to)
 
 ## System preferences
 Here are some of my settings.
@@ -25,6 +27,7 @@ Here are some of my settings.
 * Keyboard > Delay Until Repeat: Short
 * Keyboard > Use all F1, F2 etc. keys as standard keys: On
 * Keyboard > Shortcuts > Input Sources > Select the previous input source: On
+* Trackpad > Tap to click: On
 * Sound > Show volume in menu bar: On
 * Internet Accounts > Add your favorite accounts 
 
@@ -47,7 +50,7 @@ You can take a look at the [.setup](https://github.com/jasonyueyang/mac-dev-setu
 
 ## Command line developer tools
 
-I use [Homebrew](http://brew.sh/), the most popular package manager for OS X, to manage installation. Homebrew has a dependency on the command line developer tools, which can be installed either by downloading XCode, or by running the followiing command:
+I use [Homebrew](http://brew.sh/), the most popular package manager for OS X, to manage installation. Homebrew has a dependency on the command line developer tools, which can be installed either by downloading Xcode, or by running the followiing command:
 ```
 xcode-select --install
 ```
@@ -108,7 +111,7 @@ Here are some of my favorite applications:
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 ```
 
-> :bulb: You can also create a shortcut to launch Sublime Text from command line:
+> :bulb: You can also create a shortcut to launch Sublime Text from command line. Then you can run Sublime with something like `sub foo.txt`.
 ```
 cd ~
 mkdir Bin
@@ -129,9 +132,8 @@ In addition, I also install these applications:
 - Office for Mac (Outlook, Word, PowerPoint, Excel)
 - Lync for Mac
 
-## Special thanks
+## Thanks to...
 
-Special thanks to many people who have shared tips and tricks. To learn more, check out these helpful resources.
 * https://github.com/nicolashery/mac-dev-setup
 * https://github.com/mathiasbynens/dotfiles
 * https://github.com/thoughtbot/laptop
@@ -140,5 +142,5 @@ Special thanks to many people who have shared tips and tricks. To learn more, ch
 * [How I set up my Mac development machine](http://www.sitepoint.com/set-mac-development-machine/)
 * [Mac OS X Setup Guide](http://sourabhbajaj.com/mac-setup/index.html)
 * [Definitive Guide to Setting up a New Mac for Development](http://alexw.me/2013/10/definitive-guid-to-development-mac-setup/)
-* [Setting Up a New Mac for OS X Web Development/](http://marcgrabanski.com/setting-up-mac-osx-web-development/)
+* [Setting Up a New Mac for OS X Web Development](http://marcgrabanski.com/setting-up-mac-osx-web-development/)
 * [Setting Up a Mac Dev Machine From Zero to Hero With Dotfiles](http://code.tutsplus.com/tutorials/setting-up-a-mac-dev-machine-from-zero-to-hero-with-dotfiles--net-35449)
