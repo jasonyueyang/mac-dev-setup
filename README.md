@@ -1,9 +1,6 @@
 # Mac Dev Environment Setup
 This document describes how I set up the dev environment for Node.js, Python, and Java development on my Mac. I hope this is a helpful reference for you to set up your machine. The OS I'm using is **OS X El Capitan**.
 
-If you have additional tips and tricks that I should include, please send me a pull request.
-
-
 - [System preferences](#system-preferences)
 - [Environment configuration](#environment-configuration)
 - [Automation](#automation)
@@ -12,6 +9,7 @@ If you have additional tips and tricks that I should include, please send me a p
 - [Downloading packages](#downloading-packages)
 - [Homebrew-cask](#homebrew-cask)
 - [Applications](#applications)
+- [Special thanks](#special-thanks)
 
 ## System preferences
 Here are some of my settings.
@@ -130,3 +128,17 @@ In addition, I also install these applications:
 - Remote Desktop for Mac
 - Office for Mac (Outlook, Word, PowerPoint, Excel)
 - Lync for Mac
+
+## Special thanks
+
+Special thanks to many people who have shared tips and tricks. To learn more, check out these helpful resources.
+* https://github.com/nicolashery/mac-dev-setup
+* https://github.com/mathiasbynens/dotfiles
+* https://github.com/thoughtbot/laptop
+* [Hacker's Guide to Setting up Your Mac](http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac)
+* [Compiling a Web Development Environment on Mac OS X](http://mac-dev-env.patrickbougie.com/)
+* [How I set up my Mac development machine](http://www.sitepoint.com/set-mac-development-machine/)
+* [Mac OS X Setup Guide](http://sourabhbajaj.com/mac-setup/index.html)
+* [Definitive Guide to Setting up a New Mac for Development](http://alexw.me/2013/10/definitive-guid-to-development-mac-setup/)
+* [Setting Up a New Mac for OS X Web Development/](http://marcgrabanski.com/setting-up-mac-osx-web-development/)
+* [Setting Up a Mac Dev Machine From Zero to Hero With Dotfiles](http://code.tutsplus.com/tutorials/setting-up-a-mac-dev-machine-from-zero-to-hero-with-dotfiles--net-35449)
