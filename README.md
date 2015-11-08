@@ -9,7 +9,7 @@ If you need to set up a similar dev environment, I hope this can be a helpful re
 - [Command line developer tools](#command-line-developer-tools)
 - [Homebrew](#homebrew)
 - [Downloading packages](#downloading-packages)
-- [Homebrew-cask](#homebrew-cask)
+- [Homebrew cask](#homebrew-cask)
 - [Applications](#applications)
 - [Resources](#thanks-to)
 
@@ -42,7 +42,7 @@ As a developer, you will spend a lot of time using the command window. Customizi
 > :bulb: If you're not familiar with shell commands, it's well worth brushing up on your [CLI commands](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything ).
 
 ## Automation
-To save time, and to create a consistent dev environment, it is benefitial to automate the setup. 
+To save time, and to create a consistent dev environment, it is beneficial to automate the setup. 
 
 You can take a look at the [.setup](https://github.com/jasonyueyang/mac-dev-setup/blob/master/.setup) script as a reference. Make sure you understand what it does and customize it to tailor for your needs.
 
@@ -50,7 +50,7 @@ You can take a look at the [.setup](https://github.com/jasonyueyang/mac-dev-setu
 
 ## Command line developer tools
 
-I use [Homebrew](http://brew.sh/), the most popular package manager for OS X, to manage installation. Homebrew has a dependency on the command line developer tools, which can be installed either by downloading Xcode, or by running the followiing command:
+I use [Homebrew](http://brew.sh/), the most popular package manager for OS X, to manage installation. Homebrew has a dependency on the command line developer tools, which can be installed either by downloading Xcode, or by running the following command:
 ```
 xcode-select --install
 ```
@@ -84,7 +84,7 @@ I typically install these:
 
 > :bulb: You can check the Python version with `python -V`. The default Python from OS X is version 2.7.10. If you use `brew install python3`, it will install 3.5.0.
 
-## Homebrew-cask
+## Homebrew cask
 For GUI applications, you will want to use [Homebrew-cask](http://caskroom.io):
 ```
 brew install caskroom/cask/brew-cask
@@ -106,7 +106,7 @@ Here are some of my favorite applications:
   * [iTerm 2](https://www.iterm2.com)
   * [Skype](http://www.skype.com)
 
-> :bulb: To run Code directldsy from command line, you can add the following to your .bashrc file. Then you can run Code with somethig like `code foo.txt`.
+> :bulb: To run Code directly from command line, you can add the following to your .bashrc file. Then you can run Code with something like `code foo.txt`.
 ```
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 ```
