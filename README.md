@@ -106,6 +106,8 @@ Here are some of my favorite applications:
   * [Dropbox](https://www.dropbox.com)
   * [iTerm 2](https://www.iterm2.com)
   * [Skype](http://www.skype.com)
+  * [VLC](https://www.videolan.org/vlc/)
+  * [iBrowse](http://download.cnet.com/iBrowse/3000-18546_4-76009297.html)
   
 > :bulb: To run Code directly from command line, you can add the following to your .bashrc file. Then you can run Code with something like `code foo.txt`.
 ```
@@ -115,7 +117,7 @@ code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 > :bulb: You can also create a shortcut to launch Sublime Text from command line. Then you can run Sublime with something like `sub foo.txt`.
 ```
 cd ~
-mkdir Bin
+mkdir bin
 ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/sub
 ```
 
