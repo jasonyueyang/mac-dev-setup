@@ -109,10 +109,7 @@ Here are some of my favorite applications:
   * [VLC](https://www.videolan.org/vlc/)
   * [iBrowse](http://download.cnet.com/iBrowse/3000-18546_4-76009297.html)
   
-> :bulb: To run Code directly from command line, you can add the following to your .bashrc file. Then you can run Code with something like `code foo.txt`.
-```
-code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
-```
+> :bulb: To run Code directly from command line, you can install the shell command: `Cmd+Shift+P` > `install code`. Then you can run Code with something like `code foo.txt`.
 
 > :bulb: You can also create a shortcut to launch Sublime Text from command line. Then you can run Sublime with something like `sub foo.txt`.
 ```
@@ -125,6 +122,12 @@ ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/s
 ```
 Preferences > Settings-Default > Remove ”ignored_packages": ["Vintage"] (and the last trailing comma)
 Preferences > Settings-User: Add "vintage_start_in_command_mode": true
+```
+
+> :bulb: To enable TypeScript support in Sublime Text, install the [TypeScript-Sublime-Plugin](https://github.com/Microsoft/TypeScript-Sublime-Plugin). This would look something like:
+```
+cd ~/"Library/Application Support/Sublime Text 2/Packages"
+git clone --depth 1 https://github.com/Microsoft/TypeScript-Sublime-Plugin.git TypeScript
 ```
 
 In addition, I also install these applications:
