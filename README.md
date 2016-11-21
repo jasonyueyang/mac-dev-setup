@@ -109,13 +109,13 @@ Here are some of my favorite applications:
   * [VLC](https://www.videolan.org/vlc/)
   * [iBrowse](http://download.cnet.com/iBrowse/3000-18546_4-76009297.html)
   
-> :bulb: To run Code directly from command line, you can install the shell command: `Cmd+Shift+P` > `install code`. Then you can run Code with something like `code foo.txt`.
+> :bulb: To run Code directly from command line, you can install the shell command: `Cmd+Shift+P` > `Shell Command: Install 'code' command in PATH`. Then you can run Code with something like `code foo.txt`.
 
 > :bulb: You can also create a shortcut to launch Sublime Text from command line. Then you can run Sublime with something like `sub foo.txt`.
 ```
 cd ~
 mkdir bin
-ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/sub
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl ~/bin/sub
 ```
 
 > :bulb: If you are a VIM lover, you can turn on the VIM mode in Sublime:
